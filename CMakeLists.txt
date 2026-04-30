@@ -36,6 +36,7 @@ add_executable(raytracer ${SOURCES})
 target_link_libraries(raytracer PRIVATE
   raylib
   OpenMP::OpenMP_CXX
+  curand
 )
 
 # ── Pass OpenMP flags through nvcc to host compiler ──
