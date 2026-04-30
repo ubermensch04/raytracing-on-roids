@@ -8,7 +8,7 @@
 int main() {
     const int W          = 800;
     const int H          = 450;
-    const int SAMPLES    = 100;
+    const int SAMPLES    = 50;
     const int MAX_DEPTH  = 10;
 
     InitWindow(W, H, "Parallel Ray Tracer");
